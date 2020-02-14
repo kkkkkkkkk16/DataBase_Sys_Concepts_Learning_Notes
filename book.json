@@ -1,0 +1,79 @@
+{
+    "title": "数据库系统概论",
+    "description": "自我隔离期间搞定数据库",
+    "author": "kkkkkkkkk16", 
+    "language": "zh-hans", 
+    "root": ".", 
+    "links": {
+        "sidebar": {
+            "Home": "https://blog.alimas-studio.com"
+        }
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-highlight",
+        "-livereload",
+        "search-plus@^0.0.11", 
+        "github@^2.0.0",  
+        "prism@^2.1.0",
+        "prism-themes@^0.0.2", 
+        "anchors@^0.7.1", 
+        "emphasize@^1.1.0",
+        "katex@^1.1.3",
+        "splitter@^0.0.8",
+        "mermaid-gb3@2.1.0", 
+        "expandable-chapters-small@^0.1.7",   
+        "todo@^0.1.3", 
+        "terminal@^0.3.2",
+        "alerts@^0.2.0",
+        "include-csv@^0.1.0",
+        "puml@^1.0.1",  
+        "-sharing",
+        "sharing-plus@^0.0.2", 
+        "chart@^0.2.0"
+    ],
+
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        }, 
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        },
+        "github": {
+            "url": "https://github.com/kkkkkkkkk16/MysqlStudyNote"
+        },  
+        "sharing": {
+           "douban": false,
+           "facebook": false,
+           "google": true,
+           "hatenaBookmark": false,
+           "instapaper": false,
+           "line": false,
+           "linkedin": true,
+           "messenger": false,
+           "pocket": false,
+           "qq": false,
+           "qzone": false,
+           "stumbleupon": false,
+           "twitter": false,
+           "viber": false,
+           "vk": false,
+           "weibo": true,
+           "whatsapp": false,
+           "all": [
+               "facebook", "google", "twitter",
+               "weibo", "instapaper", "linkedin",
+               "pocket", "stumbleupon", "qq", "qzone"
+           ]
+       },    
+        "terminal": {
+            "copyButtons": true,
+            "fade": false,
+            "style": "flat"
+        }
+    }
+}
