@@ -12,5 +12,8 @@
 * [关系型数据库](02_relational_DB/02_01关系型数据库基本概念.md)
 * [元组](./02_relational_DB/02_02元组.md)
 * [关系模型-严格的定义一张表](./02_relational_DB/02_03关系模型.md)
-* [关系代数-特殊的集合运算](./02_relational_DB/02_04关系代数-集合.md)
+* [关系代数](./02_relational_DB/02_00readme.md)
+  * [集合运算](./02_relational_DB/02_04关系代数-集合.md)
+  * [关系操作](./02_relational_DB/02_05关系操作.md)
+  * [笛卡尔积与连接](./02_relational_DB/02_06关系代数-笛卡尔积.md)
 

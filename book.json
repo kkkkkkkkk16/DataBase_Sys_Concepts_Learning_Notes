@@ -76,6 +76,9 @@
             "copyButtons": true,
             "fade": false,
             "style": "flat"
+        },
+        "chart":{
+            "type" : "highcharts"
         }
     }
 }
